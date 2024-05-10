@@ -23,7 +23,7 @@ public class Application1 {
 
     // 문자 출력
     System.out.println('a');// 문자 형태의값은 홀따옴표로 표시
-//      System.out.println('ab');
+    //  System.out.println('ab');
 
     System.out.println('1'); // 숫자 값이지만 홀따옴표로 표시해서 문자 '1'로 판단
 
@@ -43,6 +43,6 @@ public class Application1 {
 
 
 
-
-     }
+    }
 }
+
