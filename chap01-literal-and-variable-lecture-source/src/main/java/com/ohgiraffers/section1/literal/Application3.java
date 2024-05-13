@@ -28,11 +28,12 @@ public class Application3 {
         System.out.println(10 % 20);
 
         System.out.println("======== 10과 20의 사칙연산 결과========");
-        System.out.println( "10과 20의 합" + (10 + 20));
+        System.out.println( "10과 20의 합" + (10 + 20)); // 10과 20의 합 30
         System.out.println( "10과 20의 합" + (10 - 20));
         System.out.println( "10과 20의 합" + (10 * 20));
         System.out.println( "10과 20의 합 나누기한 몫" + (10 / 20));
         System.out.println( "10과 20의 합 나누기한 나머지"+ (10 % 20));
+
 
 
 
