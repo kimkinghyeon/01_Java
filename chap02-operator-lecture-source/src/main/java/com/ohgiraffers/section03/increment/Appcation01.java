@@ -40,18 +40,18 @@ public class Appcation01 {
         int firstNum = 20;
 
         int result1 = firstNum++ * 3;
-        System.out.println("result1 = " + result1);
-        System.out.println("result1 = " + firstNum);
+        System.out.println("result1 = " + result1); //60
+        System.out.println("result1 = " + firstNum); //21
 
         int secondNum = 20;
-        int result2 = ++secondNum * 3; // 63
-        System.out.println("result2 = " + result2);
-        System.out.println("secondNum = " + secondNum);
+        int result2 = ++secondNum * 3;
+        System.out.println("result2 = " + result2); //63
+        System.out.println("secondNum = " + secondNum); //21
 
         int num1 = 10;
         int addNum = num1++;
-        System.out.println("addNum = " + addNum);
-        System.out.println("num1 = " + num1);
+        System.out.println("addNum = " + addNum); //10
+        System.out.println("num1 = " + num1); //11
 
     }
 }
