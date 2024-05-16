@@ -57,6 +57,6 @@ public class Appcation {
         System.out.println("age1 가 18이상 65미만인지 = " + (age1 >= 18 && age1 < 65));
         System.out.println("x1 == 10 = " + (x1 >= 10));
         System.out.println("y1 >= 25 = " + (y1 >= 25));
-        
+
     }
 }
