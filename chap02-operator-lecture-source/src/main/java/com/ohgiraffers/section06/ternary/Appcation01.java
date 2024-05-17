@@ -18,7 +18,7 @@ public class Appcation01 {
 
         String result1 = (num1 > 0) ? "양수다." : "양수가 아니다.";
         System.out.println("result1 = " + result1);
-        String result2 = (num1 < 0) ? "양수다." : "양수가 아니다.";
+        String result2 = (num2 > 0) ? "양수다." : "양수가 아니다.";
         System.out.println("result2 = " + result2);
 
         // 삼항연산자 중첩 사용

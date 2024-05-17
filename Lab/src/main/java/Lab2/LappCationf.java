@@ -19,5 +19,16 @@ public class LappCationf {
 
         }
 
+        public int nonStaticLab2(int first, int second){
+
+            return first * second;
+        }
+
+        public static int staticLab1(int x){
+
+            return x = 10;
+
+        }
+
     }
 
