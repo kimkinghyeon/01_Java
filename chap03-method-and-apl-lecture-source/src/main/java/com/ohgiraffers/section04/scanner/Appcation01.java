@@ -15,7 +15,6 @@ public class Appcation01 {
 
         Scanner sc = new Scanner(System.in);
 
-
         //int num = sc.nextInt();
 
        // System.out.println(num);
@@ -59,14 +58,25 @@ public class Appcation01 {
          *
          * nextFloat() : 입력받은 값을 float형으로 반환해준다.
          * */
-        Scanner sc1 = new Scanner(System.in);
-        System.out.print("키를 입력해주세요 : ");
-        float height = sc1.nextFloat();
-        System.out.println("입력하신 키는 " + height + "cm입니다");
 
-        System.out.println("아무 문자나 입력하세요");
-        String str = sc.nextLine();
+        System.out.print("키를 입력해주세요 : ");
+        float height = sc.nextFloat();
+        System.out.println("입력하신 키는 : " + height + "cm입니다");
+
+        System.out.println("원주율(파이)를 아는 만큼 입력하세요");
+        double pi = sc.nextDouble();
+        System.out.println("입력한 원주율은 " + pi + "입니다.");
+
+        System.out.println("참과 거짓중에 한가지를 true or false 로 입력해주세요");
+        System.out.println("나는 복습을 잘하고 있다.");
+        boolean isTrue = sc.nextBoolean();
+        System.out.println("입력하신 논리 값은 " + isTrue + "입니다.");
+
+        sc.nextLine();
+        System.out.print("아무 문자나 입력하세요");
+        String str =sc.nextLine();
         char ch = str.charAt(0);
-        System.out.print("입력하신 문자는 : " + ch + "입니당.");
+        System.out.println("입력하신 문자는 " + ch + "입니다.");
+
     }
 }
