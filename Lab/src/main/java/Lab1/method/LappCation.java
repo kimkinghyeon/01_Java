@@ -60,4 +60,39 @@ public class LappCation {
 
         labIf.labif();
     }
+
+    public static void testMonth(){
+        System.out.println("어느 요일의 날씨가 궁금하신가요?");
+        Scanner sc = new Scanner(System.in);
+        String testMonth = sc.nextLine();
+
+
+        switch (testMonth){
+            case "월요일","1":
+                System.out.println("월요일은 날씨가 맑습니다.");
+                break;
+            case "2", "화요일":
+                System.out.println("화요일은 날씨가 흐립니다.");
+                break;
+            case "3", "수요일":
+                System.out.println("수요일은 비가 내릴 예정입니다.");
+                break;
+            case "4", "목요일":
+                System.out.println("목요일은 대체로 흐릴 예정입니다.");
+                break;
+            case "5", "금요일":
+                System.out.println("금욜이은 날씨가 맑은 예정입니다.");
+                break;
+            case "6", "토요일":
+                System.out.println("토요일에 비가 내릴 예정입니다.");
+            case "7", "일요일":
+                System.out.println("일요일도 비가 내릴 예정입니다.");
+                break;
+            default:
+                System.out.println("잘못 입력하셨습니다.");
+        }
+        System.out.println("일기예보가 종료됩니다.");
+
+
+    }
 }

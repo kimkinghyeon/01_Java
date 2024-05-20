@@ -103,24 +103,24 @@ public class D_switch {
     }
     public void testDoggy(){
 
-        System.out.println("도끼 뭐임?");
+        System.out.println("어느 도끼가 너의 도끼이냐? (1.금도끼 , 2.은도끼 , 3.쇠도끼)");
         Scanner sc = new Scanner(System.in);
         String doGgy = sc.nextLine();
 
+
         switch (doGgy){
-            case "금도끼":
-                System.out.println(" 욕심쟁이쉨나가");
+            case "1", "금도끼":
+                System.out.println("욕심쟁이 쉨 나가");
                 break;
-            case "은도끼":
-                System.out.println(" 소인배 쉨 나가");
+            case "2", "은도끼":
+                System.out.println("소인배 쉨 나가");
                 break;
-            case "쇠도끼":
-                System.out.println(" 아주 좋았어 너 다가져");
+            case "3", "쇠도끼":
+                System.out.println("아주 좋았어 너 다가져");
                 break;
             default:
-                System.out.println(" 뭐라노");
-
+                System.out.println("뭐라노");
         }
-        System.out.println(" 신령님은 그렇게 거품이되어 사라졌다.");
+        System.out.println("신령님은 그렇게 거품이되어 사라졌다.");
     }
 }
