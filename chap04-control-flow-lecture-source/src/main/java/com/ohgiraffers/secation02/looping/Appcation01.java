@@ -10,7 +10,7 @@ public class Appcation01 {
         //a_for.testForExample1();
         //a_for.testExample2();
         //a_for.testExample3();
-       // a_for.printSimpleGugudan();
+        //a_for.printSimpleGugudan();
         //a_for.testExample4();
         //a_for.testExample0();
         A_nestedFor a_nestedFor = new A_nestedFor();
@@ -22,6 +22,7 @@ public class Appcation01 {
         //a_nestedFor.triangStar();
         //a_nestedFor.triangStar1();
         //a_nestedFor.triangStar2();
+        a_nestedFor.triangStar3();
 
         B_while b_while = new B_while();
 
@@ -32,6 +33,6 @@ public class Appcation01 {
 
         C_doWhile c_doWhile = new C_doWhile();
         //c_doWhile.testSimpleDoWhileStatement();
-        c_doWhile.testDoWhileExample1();
+        //c_doWhile.testDoWhileExample1();
     }
 }
