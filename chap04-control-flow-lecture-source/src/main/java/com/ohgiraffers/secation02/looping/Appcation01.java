@@ -22,7 +22,7 @@ public class Appcation01 {
         //a_nestedFor.triangStar();
         //a_nestedFor.triangStar1();
         //a_nestedFor.triangStar2();
-        a_nestedFor.triangStar3();
+        //a_nestedFor.triangStar3();
 
         B_while b_while = new B_while();
 
