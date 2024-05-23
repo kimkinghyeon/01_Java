@@ -167,13 +167,39 @@ public class labStar {
     public void labStar09() {
         System.out.println("하트");
         Scanner sc = new Scanner(System.in);
-        System.out.println("홀수 입력");
+        System.out.println("숫자 입력");
         int row = sc.nextInt();
-        int rowtop = (row/2) -2;
-        for(int i = rowtop; i < row; i +=2){
-            for()
+        int i, j;
+        int rowWidth = (row / 2) - 2;
+        int bottom = row * 2 + 1;
+        for (i = rowWidth; i < row; i += 2) {
+            for (j = 0; j <= (row -i) * 2; j +=2) {
+                System.out.print(" ");
+            }
+            for (j = 0; j <= i * 2; j++) {
+                System.out.print("*");
+            }
+            for (j = 0; j <= (row - i) * 2; j+=2) {
+                System.out.print("  ");
+            }
+            for (j = 0; j <= i * 2; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
         }
-
+        for (i = bottom; i >= 0 ;i -= 2){
+            for(j = 0; j <= bottom -i; j++){
+                System.out.print(" ");
+            }
+            for(j = 0; j <= i * 2; j++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        System.out.println("        ======== I LOVE YOU ========");
     }
 }
+
+
+
 

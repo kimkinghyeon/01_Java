@@ -70,7 +70,7 @@ public class Application02 {
             System.out.println(j + "번째 인덱스 배열");
 
             // 각 인덱스의 배열값에 차례로 출력하는 반복문
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < iarr[i].length; i++) {
                 System.out.print(iarr[j][i] + " ");
             }
             System.out.println();

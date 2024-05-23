@@ -17,6 +17,7 @@ public class Appcation02 {
         print(names);
         String[] animals = getAnimals();
         System.out.println("리턴받은 animals 의 hashcode : " + animals.hashCode());
+        print(getAnimals());
 
     }
     public static String[] getAnimals(){

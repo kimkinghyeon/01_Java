@@ -14,5 +14,6 @@ public class labAppcation {
         //labStar.labStar06();
         //labStar.labStar07();
         //labStar.labStar08();
+        labStar.labStar09();
     }
 }

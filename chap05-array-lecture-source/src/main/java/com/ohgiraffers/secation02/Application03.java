@@ -40,18 +40,36 @@ public class Application03 {
         iarr[2][3] = 9;
         iarr[2][4] = 10;
 
-        int value = 0;
+        int value = 1;
         // 모든 배열에 순차적으로 접근해서 1씩 증가하는 value를 할당해줌
+        System.out.println("value=========");
         for (int i = 0; i < iarr.length; i++){
             for (int j = 0; j < iarr[i].length; j++){
                 iarr[i][j] = ++value;
+                System.out.print(value + " ");
             }
         }
+
+        // arr[i][j] = value++;
+        // 1. arr[i][j] = value;
+        // 2. value = value + 1;
+
+        // arr[i][j] = ++value;
+        // 1. value = value + 1;
+        // 2. arr[i][j] = value;
+
+        System.out.println("\niarr[i][j]=========");
         for (int i = 0; i < iarr.length; i++){
             for (int j = 0; j < iarr[i].length; j++){
                 System.out.print(iarr[i][j] + " ");
             }
-            System.out.println();
         }
+
+//        for (int i = 0; i < iarr.length; i++){
+//            for (int j = 0; j < iarr[i].length; j++){
+//                System.out.print(iarr[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
     }
 }

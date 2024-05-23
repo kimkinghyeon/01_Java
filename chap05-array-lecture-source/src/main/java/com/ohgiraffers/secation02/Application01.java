@@ -36,17 +36,18 @@ public class Application01 {
             System.out.print(arr[0][i] + " ");
         }
         System.out.println();
-        for (int i = 0; i < arr2[0].length; i++) {
+        for (int i = 0; i < arr2[1].length; i++) {
             System.out.print(arr[1][i] + " ");
         }
         System.out.println();
-        for (int i = 0; i < arr2[0].length; i++) {
+        for (int i = 0; i < arr2[2].length; i++) {
                 System.out.print(arr[2][i] + " ");
         }
+        System.out.println();
         System.out.println("======== 이중 for 문으로 이차원배열 출력 =====");
-        for(int j = 0; j < arr2.length; j ++) {
-            for(int i = 0; i < arr2[j].length; i++) {
-                System.out.print(arr2[j][i] + " ");
+        for(int i = 0; i < arr2.length; i++) { //3
+            for(int j = 0; j < arr2[i].length; j++) {//5
+                System.out.print(arr2[i][j] + " ");
             }
             System.out.println();
         }
