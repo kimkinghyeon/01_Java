@@ -191,12 +191,12 @@ public class labStar {
             for(j = 0; j <= bottom -i; j++){
                 System.out.print(" ");
             }
-            for(j = 0; j <= i * 2; j++){
+            for(j = 1; j <= i * 2; j++){
                 System.out.print("*");
             }
             System.out.println("");
         }
-        System.out.println("        ======== I LOVE YOU ========");
+        System.out.println("======== I LOVE YOU ========");
     }
 }
 
