@@ -1,2 +1,4 @@
-package com.ohgiraffers.secation08.initblock;public class Application {
+package com.ohgiraffers.secation08.initblock;
+
+public class Application {
 }

@@ -36,7 +36,16 @@ public class Application {
         * 하지만 static 필드의 경우 클래스 변수(static 붙은) 가 프로그램 종료될 때 까지
         * 유지되고 있기 때문에 값을 유지하고 있다.
         * 따라서 여러 개의 인스턴스가 같은 공간을 공유할 목적으로 필드에 static 키워드를 사용한다.*/
-    
+
         StaticMethodTest smt = new StaticMethodTest();
+
+        smt.nonStaticMethod();
+
+        /* static Method 호출
+        *
+        * [클래스명].[메소드명]*/
+        smt.staticMethod(); // 권장되진 않음
+        StaticMethodTest.staticMethod(); // 권장됨
+
     }
 }
