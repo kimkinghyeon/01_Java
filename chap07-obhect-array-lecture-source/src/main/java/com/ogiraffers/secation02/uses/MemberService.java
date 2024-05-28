@@ -27,6 +27,6 @@ public class MemberService {
                 System.out.println(m.getInformation());
             }
         }
-        System.out.println("-------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 }
