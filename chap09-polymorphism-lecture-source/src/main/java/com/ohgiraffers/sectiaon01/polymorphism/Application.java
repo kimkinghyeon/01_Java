@@ -89,6 +89,7 @@ public class Application {
         * up-casting : 상위 타입으로 형변환 -> 부모 클래스로 형변환
         * down-casting : 하위 타입으로 형변환 -> 자식 클래스로 형변환
         * 작성 여부에 따라 명시적과 묵시적으로 구분*/
+
         // 묵시적 형변환 -> up-casting 의 경우 적용됨
         Animal animal1 = (Animal) new Rabbit(); // up-casting 명시적 형변환
         Animal animal2 = new Rabbit(); // up-casting 묵시적 형변환
@@ -104,7 +105,6 @@ public class Application {
         // 반대의 경우는 안됨
 //        Rabbit r = new Animal();
 //        Tiger t = new Animal();
-
 
     }
 }
