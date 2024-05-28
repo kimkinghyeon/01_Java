@@ -1,6 +1,6 @@
 package com.ohgiraffers.section04.use1;
 
-public class PacingCar extends Car{
+public class RacingCar extends Car{
     @Override
     public void go() {
         System.out.println("레이싱카가 달려갑니다.");
