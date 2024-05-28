@@ -1,4 +1,4 @@
-package com.ohgiraffers.sectiaon02.abstractclass;
+package com.ohgiraffers.section02.abstractclass;
 
 public abstract class Product {
 
@@ -8,6 +8,12 @@ public abstract class Product {
 
     // 생성자도 만들 수 있다. -> 하지만 직접 인스턴스를 생성할 수는 없다.
     public Product(int nonStaticField) {
+    }
+
+    protected Product() {
+    }
+
+    public static void nonStaticMethod() {
     }
 
     // 추상클래스는 일반적인 메서드를 가질 수 있다.
@@ -22,9 +28,6 @@ public abstract class Product {
 
     }
 
-    public abstract void abstMethod(){
-
-
-    }
+    public abstract void abstMethod();
 
 }

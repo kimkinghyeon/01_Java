@@ -1,4 +1,4 @@
-package com.ohgiraffers.sectiaon01.polymorphism;
+package com.ohgiraffers.section01.polymorphism;
 
 public class Application4 {
     // 다형성을 적용하여 리턴타입에 활용할 수 있다.
