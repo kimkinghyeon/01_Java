@@ -1,4 +1,4 @@
-package com.ohgiraffers.section3.interfaceimplements;
+package com.ohgiraffers.section03.interfaceimplements;
 
 public interface InterProduct /*extends java.io.Serializable,java.util.Comparator*/ {
 
@@ -32,12 +32,12 @@ public interface InterProduct /*extends java.io.Serializable,java.util.Comparato
 
     /* public abstract */void abstMethod();
 
-    // static 메서드는 작성이 가능하다.
+    // static 메서드는 작성이 가능하다. jdk 1.8 기능 추가
     public static void staticMethod(){
         System.out.println("InterProduct 클래스의 staticMethod 호출됨");
     }
 
-    // default 키워드를 사용하면 nonStatic 메소드도 작성 가능
+    // default 키워드를 사용하면 nonStatic 메소드도 작성 가능 jdk 1.8 기능 추가
     public default void defaultMethod(){
         System.out.println("InterProduct 클래스의 defaultMethod 호출됨");
     }
