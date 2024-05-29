@@ -21,17 +21,23 @@ public class Application3 {
         String[] empArr2 = emp2.split(",");
         String[] empArr3 = emp3.split(",");
 
-        System.out.println("========== empArr1 ==========");
+        System.out.println("========== empArr1 =========="); // 정상 출력
         for (int i = 0; i < empArr1.length; i++){
             System.out.println("empArr1[" + i + "]" + empArr1[i]);
         }
-        System.out.println("========== empArr2 ==========");
+        System.out.println("========== empArr2 =========="); // 중간값이 비여있음
         for (int i = 0; i < empArr2.length; i++){
             System.out.println("empArr2[" + i + "]" + empArr2[i]);
         }
-        System.out.println("========== empArr3 ==========");
+        System.out.println("========== empArr3 =========="); // 마지막 값이 없음
         for (int i = 0; i < empArr3.length; i++){
             System.out.println("empArr3[" + i + "]" + empArr3[i]);
         }
+        System.out.println("========== empArr3 ==========");
+        String[] empArr4 = emp3.split(",",-1);
+        for (int i = 0; i < empArr4.length; i++){
+            System.out.println("empArr4[" + i + "]" + empArr4[i]);
+        }
+
     }
 }
