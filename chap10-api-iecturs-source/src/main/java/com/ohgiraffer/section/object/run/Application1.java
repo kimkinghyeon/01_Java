@@ -24,5 +24,10 @@ public class Application1 {
         System.out.println("book2.toString = " + book2.toString());
         System.out.println("book3.toString = " + book3.toString());
 
+        System.out.println("=================== toString 오버라이딩 후 =====================");
+        System.out.println("book 1 =" + book1);
+        System.out.println("book 2 =" + book2);
+        System.out.println("book 3 =" + book3);
+
     }
 }
