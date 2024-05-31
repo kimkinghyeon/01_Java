@@ -137,7 +137,6 @@ public class RunBoy {
         for (int i = 0; i < sarr.length; i++) {
             String[] sarr2 = sarr[i].split(",", -1);
 //            System.out.println(sarr[i]);
-//            System.out.println(sarr2[0]);
 
             MemberMk2 member = new MemberMk2();
             member.setId(Integer.parseInt(sarr2[0]));
@@ -145,23 +144,35 @@ public class RunBoy {
             member.setLast_name(sarr2[2]);
             member.setEmail(sarr2[3]);
             member.setGender(sarr2[4]);
-//            LocalDate birthday = LocalDate.parse(sarr2[5], DateTimeFormatter.ofPattern("yyyyMMdd"));
-//            member.setBirthday(birthday);
-//            LocalDate reservation = LocalDate.parse(sarr2[6], DateTimeFormatter.ofPattern("yyyyMMdd"));
-//            member.setReservation_date(reservation);
+
+            LocalDate birthday = null;
+            if (!sarr2[5].equals("")) {
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+                birthday = LocalDate.parse(sarr2[5], formatter);
+            }
+            member.setBirthday(birthday);
+
+            LocalDate reservation = null;
+            if(!sarr2[6].equals("")) {
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+                reservation = LocalDate.parse(sarr2[6]);
+            }
+            member.setReservation_date(reservation);
+
 
             LocalTime time = null;
-            if (sarr2[7] != null){
-                time = LocalTime.parse(sarr2[7]);
+            if (!sarr2[7].equals("")){
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("H:mm");
+                time = LocalTime.parse(sarr2[7], formatter);
             }
             member.setReservation_time(time);
+
             LocalDateTime created_at = LocalDateTime.parse(sarr2[8]);
             member.setCreated_at(created_at);
 
             memberMk2[i] = member;
 
         }
-
 
         System.out.println(Arrays.toString(memberMk2));
 
