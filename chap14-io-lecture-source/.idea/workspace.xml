@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="ea95a7fa-430a-4547-88d2-78bb64624b8b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/sectiom01/file/Application.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +17,68 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kimkinghyeon"
   }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kimkinghyeon/01_Java.git",
+    "accountId": "8168ef5c-c5c3-4dbb-91e9-c5b7fc95b6ed"
   }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2hLdDjLCXuC4QaeuFn7Sit9oQy5" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.file.Application" />
+      <module name="chap14-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -35,11 +90,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="5cd859fc-8189-4265-aea2-1a53c1f6d4a5" name="변경" comment="" />
+      <changelist id="ea95a7fa-430a-4547-88d2-78bb64624b8b" name="변경" comment="" />
       <created>1717377176692</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717377176692</updated>
+      <workItem from="1717378190810" duration="591000" />
     </task>
     <servers />
   </component>
