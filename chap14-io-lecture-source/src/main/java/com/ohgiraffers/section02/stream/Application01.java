@@ -26,13 +26,11 @@ public class Application01 {
          * Reader, Writer (2바이트 혹은 3바이트) 단위로 작업
          * */
 
-
         FileInputStream fin = null;
 
         try {
 
             fin = new FileInputStream("src/main/java/com/ohgiraffers/section02/stream/testInputStream.txt");
-
 
             // 1. 1Byte씩 반복해서 읽기
 //            int value;
@@ -61,11 +59,31 @@ public class Application01 {
             //read() 메소드의 인자로 byte배열을 넣으면
             //파일을 읽어서 byte 배열로 반환을 해준다.
             fin.read(bar);
-            
+
+            for (int i = 0; i < bar.length; i++){
+                System.out.print((char) bar[i]);
+            }
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             throw new RuntimeException(e);
+        } finally {
+
+            if(fin != null){
+                try {
+
+                    /* 자원을 반납을 하지 않으면(스트림을 닫지않으면),
+                    * 장기간 실행중인 프로그램의 경우,
+                    * 다양한 자원에서 누수(leak)가 발생
+                    * 버퍼를 이용하는경우 마지막에 flush()로 버포에 남은 데이터를 강제로 전송해야함
+                    * 잔류데이터가 남은 상황에서 추가로 스트림을 사용하면, 데드락(DeadLock) 교착상태가됨*/
+
+                    fin.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         }
 
     }
