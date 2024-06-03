@@ -1,7 +1,6 @@
 package com.ohgiraffers.section01.intenum;
 
 public class Application {
-
     public static void main(String[] args) {
 
         /* Enum(열거타입)
@@ -17,7 +16,8 @@ public class Application {
         * 3. 타입의 안전을 보장 할 수 없다.*/
 
         int subject1 = Subjects.JAVA; // 0
-        int subject2 = Subjects.JAVA; // 0
+      int subject2 = Subjects.JAVA; // 0
+
 
         if(subject1 == subject2){
             System.out.println("두과목은 같은 과목입니다.");
@@ -27,14 +27,33 @@ public class Application {
         int num = 0;
         String subjectText = "";
 
+        // switch 문을 int 를 매개변수로 입력받고
+        // return 없이, 과목명을 출력하는 메소드
+        // public static, printSubject(){}
+
+
         switch (num){
             case Subjects.JAVA: subjectText = "JAVA"; break;
             case Subjects.JDBC: subjectText = "JDBC"; break;
             case Subjects.ORACLE: subjectText = "ORACLE"; break;
+
         }
+
         System.out.println("subjectText = " + subjectText);
-        System.out.println("subjectText = " + subjectText);
-        System.out.println("subjectText = " + subjectText);
+
+        // 3. 타입 안전을 보장할 수 없다.
     }
+    public static void pintSubjects(int subjectsNumber) {
+
+        String subjects = "";
+        switch (subjectsNumber){
+            case Subjects.JAVA: subjects = "JAVA"; break;
+            case Subjects.JDBC: subjects = "JDBC"; break;
+            case Subjects.ORACLE: subjects = "ORACLE"; break;
+
+        }
+        System.out.println("subjects = " + subjects);
+    }
+
 
 }
