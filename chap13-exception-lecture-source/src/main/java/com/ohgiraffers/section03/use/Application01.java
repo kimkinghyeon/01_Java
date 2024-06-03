@@ -8,7 +8,6 @@ import java.io.IOException;
 public class Application01 {
     // io 패키지에서 예외처리
     public static void main(String[] args) {
-
         BufferedReader in = null;
 
         try {
@@ -46,7 +45,7 @@ public class Application01 {
             try {
 
                 // BufferReader 객체가 없을 때를 대비해서 조건문으로 작성
-                if (in != null) {
+                if(in != null) {
 
                     // 자원 반환
                     in.close();
@@ -55,6 +54,8 @@ public class Application01 {
                 throw new RuntimeException(e);
             }
         }
+
+
 
     }
 }
