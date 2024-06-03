@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea95a7fa-430a-4547-88d2-78bb64624b8b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Subjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/filterstream/Application02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/filterstream/Application02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/ohgiraffers/section03/use/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/ohgiraffers/section03/use/Application01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +169,7 @@
       <updated>1717377176692</updated>
       <workItem from="1717378190810" duration="11926000" />
       <workItem from="1717395434313" duration="9000" />
+      <workItem from="1717400685744" duration="1966000" />
     </task>
     <servers />
   </component>

@@ -10,8 +10,8 @@ public class Application01 {
         try {
 
 
-            // FileReader라는 클래스에 FileNotFoundExcepiton을
-            // throw 해놓아서 try-catch로 예외처리를 해주어야함.
+            // FileReader 라는 클래스에 FileNotFoundExcepiton을
+            // throw 해놓아서 try-catch 로 예외처리를 해주어야함.
 
             // FileReader라는 클래스에 FileNotFoundExcepiton을
 
