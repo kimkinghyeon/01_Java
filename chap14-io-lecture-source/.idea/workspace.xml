@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea95a7fa-430a-4547-88d2-78bb64624b8b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/sectiom01/file/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Subjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaxMaxMax/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/filterstream/Application02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/filterstream/Application02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,45 +42,110 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kimkinghyeon"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kimkinghyeon&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kimkinghyeon/01_Java.git",
-    "accountId": "8168ef5c-c5c3-4dbb-91e9-c5b7fc95b6ed"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kimkinghyeon/01_Java.git&quot;,
+    &quot;accountId&quot;: &quot;8168ef5c-c5c3-4dbb-91e9-c5b7fc95b6ed&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hLdDjLCXuC4QaeuFn7Sit9oQy5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap14-io-lecture-source [:Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap14-io-lecture-source [:Application01.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap14-io-lecture-source [:Application02.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap14-io-lecture-source [:Application03.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.chap14-io-lecture-source [:Application04.main()].executor&quot;: &quot;Run&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.file.Application" />
+}</component>
+  <component name="RunManager" selected="애플리케이션.com.ohgiraffers.section03.filterstream.Application02">
+    <configuration name="Application02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.stream.Application02" />
       <module name="chap14-io-lecture-source.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.file.*" />
+          <option name="PATTERN" value="com.ohgiraffers.section02.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.stream.Application03" />
+      <module name="chap14-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.stream.Application04" />
+      <module name="chap14-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section03.filterstream.Application01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.filterstream.Application01" />
+      <module name="chap14-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.filterstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section03.filterstream.Application02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.filterstream.Application02" />
+      <module name="chap14-io-lecture-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.filterstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,7 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Application" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.section03.filterstream.Application02" />
+        <item itemvalue="애플리케이션.com.ohgiraffers.section03.filterstream.Application01" />
+        <item itemvalue="애플리케이션.Application04" />
+        <item itemvalue="애플리케이션.Application03" />
+        <item itemvalue="애플리케이션.Application02" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +179,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717377176692</updated>
-      <workItem from="1717378190810" duration="591000" />
+      <workItem from="1717378190810" duration="11926000" />
+      <workItem from="1717395434313" duration="9000" />
     </task>
     <servers />
   </component>

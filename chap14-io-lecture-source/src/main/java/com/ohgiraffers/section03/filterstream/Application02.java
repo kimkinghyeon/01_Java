@@ -1,5 +1,7 @@
 package com.ohgiraffers.section03.filterstream;
 
+import java.io.*;
+
 public class Application02 {
 
     public static void main(String[] args) {
@@ -15,5 +17,45 @@ public class Application02 {
         *
         * System.in 을 InputStreamReader 로 변환 (바이트 기반 스트림 -> 문자 기반스트림)
         * Buffered 를 이용한 보조스트림과 연결 */
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("문자열 입력");
+
+
+
+        try {
+            String value = br.readLine();
+            System.out.println("value = " + value);
+
+        } catch (IOException e) {
+
+            throw new RuntimeException(e);
+        } finally {
+            if (br != null){
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
+
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        try {
+            bw.write("java mysql jdbc");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+
+        } finally {
+            if (bw != null){
+                try {
+                    bw.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
     }
 }
