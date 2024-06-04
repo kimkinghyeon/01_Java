@@ -9,7 +9,6 @@ public class Run {
     Scanner sc = new Scanner(System.in);
     CharacterProcess cp = new CharacterProcess();
 
-
     public static void main(String[] args) {
         Run r = new Run();
         r.test1();

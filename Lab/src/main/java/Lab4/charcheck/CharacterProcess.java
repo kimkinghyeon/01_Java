@@ -1,7 +1,5 @@
 package Lab4.charcheck;
 
-
-
 public class CharacterProcess {
     public int countAlpha(String s) {
 
@@ -33,6 +31,7 @@ public class CharacterProcess {
 public Characterprocess() {
     super();
 }
+
 
 
 

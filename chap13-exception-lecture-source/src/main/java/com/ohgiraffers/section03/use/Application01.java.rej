@@ -1,0 +1,18 @@
+diff a/chap13-exception-lecture-source/src/main/java/com/ohgiraffers/section03/use/Application01.java b/chap13-exception-lecture-source/src/main/java/com/ohgiraffers/section03/use/Application01.java	(rejected hunks)
+@@ -12,16 +12,13 @@
+         BufferedReader in = null;
+ 
+         try {
+-
+             // FileReader라는 클래스에 FileNotFoundExcepiton을
+-            // throw 해놓아서 try-catch로 예외처리를 해주어야함.
+             in = new BufferedReader(new FileReader("test.dat"));
+ 
+             // 파일을 읽어서 저장할 문자열
+             String s;
+ 
+             // 파일을 한줄씩 읽어서 출력하는 기능
+-            while ((s = in.readLine()) != null) {
+                 System.out.println(s);
+             }
+ 
