@@ -1,18 +1,25 @@
 package Lab4.charcheck;
 
-import Lab4.charcheck.number.GongBackNegativeException;
+class CharCheckException extends RuntimeException{
 
-public class CharCheckException {
-    public void processTest(String n) throws GongBackNegativeException {
+        public CharCheckException() {
+            super();
+        }
 
-        if (n == null){
+        public CharCheckException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+            super(message, cause, enableSuppression, writableStackTrace);
+        }
 
-            throw new GongBackNegativeException("공백 빼");
+        public CharCheckException(String message, Throwable cause) {
+            super(message, cause);
+        }
 
-        } else {
+        public CharCheckException(String message) {
+            super(message);
+        }
 
-            System.out.println(n);
+        public CharCheckException(Throwable cause) {
+            super(cause);
         }
 
     }
-}
