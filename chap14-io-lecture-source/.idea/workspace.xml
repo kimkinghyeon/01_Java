@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea95a7fa-430a-4547-88d2-78bb64624b8b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/ohgiraffers/section03/use/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/ohgiraffers/section03/use/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab4/charcheck/CharacterProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab5/AAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab5/AAAImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab5/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab5/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/ohgiraffers/section02/Application05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/ohgiraffers/section03/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/ohgiraffers/section03/Application01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/ohgiraffers/section03/Application02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/CoffeeKiosk/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/CoffeeKiosk/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/CoffeeKiosk/Barista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/CoffeeKiosk/Barista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/CoffeeKiosk/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/CoffeeKiosk/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/CoffeeKiosk/Kiosk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/CoffeeKiosk/Kiosk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/CoffeeKiosk/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/CoffeeKiosk/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/method/LabIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/method/LabIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/method/LappCation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/method/LappCation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/method/labAppcation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/method/labAppcation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/method/labStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/method/labStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/mmk1/appli.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/mmk1/appli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab1/mmk1/dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab1/mmk1/dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab2/LappCationf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab2/LappCationf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab3/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab3/James.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab3/James.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab3/Joshua_Bloch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab3/Joshua_Bloch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab3/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab3/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab3/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab3/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab3/Tesla_Model_S.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab3/Tesla_Model_S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab4/charcheck/CharCheckException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab4/charcheck/CharCheckException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab4/charcheck/CharacterProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab/src/main/java/Lab4/charcheck/number/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab/src/main/java/labpack/Lab4/charcheck/number/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Application01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/ohgiraffers/section01/intro/Application01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +199,8 @@
       <workItem from="1717378190810" duration="11926000" />
       <workItem from="1717395434313" duration="9000" />
       <workItem from="1717400685744" duration="1966000" />
+      <workItem from="1717481301846" duration="788000" />
+      <workItem from="1717488090587" duration="20000" />
     </task>
     <servers />
   </component>

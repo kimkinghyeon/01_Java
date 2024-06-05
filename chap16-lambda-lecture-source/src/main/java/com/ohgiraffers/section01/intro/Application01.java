@@ -31,7 +31,7 @@ public class Application01 {
          * 2. 익명 클래스를 활용해서 메소드를 정의 후 사용하는 방법
          * 3. 람다식을 활용하는 방법*/
 
-        // 1. 인토페이스를 구현하는 구현체를 이용한 방식
+        // 1. 인터페이스를 구현하는 구현체를 이용한 방식
         Calculator c1 = new CalculatorImpl();
 
         System.out.println("10과 20의 합은?" + c1.sumTwoNumber(10, 20));
@@ -45,7 +45,7 @@ public class Application01 {
         };
         System.out.println("20과 30의 합은?" + c2.sumTwoNumber(20, 30));
 
-        // 3. 담다식을 활용하는방식
+        // 3. 람다식을 활용하는방식
         Calculator c3 =(x,y) -> x + y;
         System.out.println("40과 50의 합은?" + c3.sumTwoNumber(40, 50));
 
