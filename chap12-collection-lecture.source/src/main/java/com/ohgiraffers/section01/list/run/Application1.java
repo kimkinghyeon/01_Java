@@ -38,7 +38,7 @@ public class Application1 {
          * */
 
         /*
-         * ArraayList
+         * ArrayList
          * -> 배열의 단점을 보완하기위해 만들어졌다.
          * 배열의 단점 : 크기 변경 불가, 요소의 추가, 수정, 삭제, 정렬 복잡함
          * 크기 변경(새로운 더큰 배열 만들고 옮기기), 요소의 추가, 수정, 삭제, 정렬 기능을
@@ -55,7 +55,7 @@ public class Application1 {
         List<Object> list = new ArrayList<>();
 
         /*
-         * arrayList는 저장 순서가 유지되며, index(순번)이 적용된다.
+         * arrayList 는 저장 순서가 유지되며, index(순번)이 적용된다.
          * Object 클래스의 하위 타입 인스턴스를 모두 저장 가능
          * */
         list.add("apple");
