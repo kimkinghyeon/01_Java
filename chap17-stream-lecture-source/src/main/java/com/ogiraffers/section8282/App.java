@@ -19,7 +19,7 @@ public class App {
     public static void main(String[] args) {
         // 문제별 메소드를 만들어서 작성하세요.
 
-        
+
 
 
     }
