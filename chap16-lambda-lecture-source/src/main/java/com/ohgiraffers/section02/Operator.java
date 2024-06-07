@@ -6,8 +6,6 @@ import java.util.function.UnaryOperator;
 public class Operator {
     public static void main(String[] args) {
 
-
-
         /* Operator : 매개변수와 리턴값이 있는 apllyxxx() 메소드를 가지고있다.
          *             Function 과 거의 유사하지만 다른점음 매개변수를 이용해 연산을 한 후
          *             동일한 타입으로 리턴해 주는 것이 다르다.
