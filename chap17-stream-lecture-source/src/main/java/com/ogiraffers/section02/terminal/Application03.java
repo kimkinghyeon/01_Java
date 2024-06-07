@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.ogiraffers.section02.terminal;
 
 import java.util.Arrays;
@@ -39,4 +40,7 @@ public class Application03 {
 
     }
 
+=======
+package com.ogiraffers.section02.terminal;public class Application03 {
+>>>>>>> c865fb1d7ff669dec49004731169a22c0b91063e
 }
