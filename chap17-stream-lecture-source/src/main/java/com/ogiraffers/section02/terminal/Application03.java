@@ -1,7 +1,6 @@
 
 package com.ogiraffers.section02.terminal;
 
-import java.lang.reflect.Member;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,9 +13,9 @@ public class Application03 {
                        메소드를 통해 컬렉션을 출력으로 받을 수 있다. */
 
         List<Member> memberList = Arrays.asList(
-                new Member("test01","testName01"),
-                new Member("test02","testName02"),
-                new Member("test03","testName03")
+                new Member("test01", "testName01"),
+                new Member("test02", "testName02"),
+                new Member("test03", "testName03")
         );
 
         List<String> collectorCollection = memberList
