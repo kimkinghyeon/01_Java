@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package com.ogiraffers.section02.terminal;
 
 public class Member {
@@ -36,7 +36,4 @@ public class Member {
                 ", memberName='" + memberName + '\'' +
                 '}';
     }
-=======
-package com.ogiraffers.section02.terminal;public class Member {
->>>>>>> c865fb1d7ff669dec49004731169a22c0b91063e
 }

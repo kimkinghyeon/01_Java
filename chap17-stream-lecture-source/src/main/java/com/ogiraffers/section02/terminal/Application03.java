@@ -1,6 +1,7 @@
-<<<<<<< HEAD
+
 package com.ogiraffers.section02.terminal;
 
+import java.lang.reflect.Member;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -40,7 +41,4 @@ public class Application03 {
 
     }
 
-=======
-package com.ogiraffers.section02.terminal;public class Application03 {
->>>>>>> c865fb1d7ff669dec49004731169a22c0b91063e
 }

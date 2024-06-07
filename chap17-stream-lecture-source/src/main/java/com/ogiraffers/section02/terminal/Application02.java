@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package com.ogiraffers.section02.terminal;
 
 import java.util.Optional;
@@ -29,7 +29,4 @@ public class Application02 {
 
     }
 
-=======
-package com.ogiraffers.section02.terminal;public class Application02 {
->>>>>>> c865fb1d7ff669dec49004731169a22c0b91063e
 }
